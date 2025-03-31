@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos personalizados */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #111a74; 
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .car-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .car-images img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .car-images p {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .bootstrap-components {
+            margin-top: 40px;
+        }
+        .btn-primary {
+            background-color: #008080; 
+            border-color: #008080;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #006666; 
+        }
+        .alert {
+            background-color: #cce5ff;
+            color: #004085;
+            border-color: #b8daff;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#" class="current-page">Página 1</a></li>
+            <li><a href="pagina2.html">Página 2</a></li>
+            <li><a href="pagina3.html">Página 3</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Página 1</h1>
+        <p>En el contenido de las páginas webs estaremos hablando de mis 3 cosas favoritas, en esta página hablaremos sobre autos.</p>
+        
+        <div class="car-images">
+            <div>
+                <img src="C:\Users\E FIX\Desktop\Actividades 1.3\imagenes\cinco-coches-estrenados-salon-shanghai-3012688.webp" alt="Imagen 1">
+                <p>Coche deportivo</p>
+                <p>este auto es mi favorito ya que cuenta con un diseño muy sofisticado y un motor impresionante</p>
+            </div>
+            <div>
+                <img src="C:\Users\E FIX\Desktop\Actividades 1.3\imagenes\autos-de-lujo-baratos.webp" alt="Imagen 2">
+                <p>Coche de lujo</p>
+                <p>El Bugatti La Voiture Noire es el auto más caro del mundo y uno de los mas bonitos que e visto.</p>
+            </div>
+            <div>
+                <img src="C:\Users\E FIX\Desktop\Actividades 1.3\imagenes\neta_auto.jpg_673822677.jpg" alt="Imagen 3">
+                <p>Coche clásico</p>
+                <p>El Ford Mustang, es uno de los autos mas clasicos y mi favorito de entre muchos</p>
+            </div>
+        </div>
+
+        <div class="bootstrap-components">
+            <a href="https://www.google.com/search?q=autos&tbm=isch" class="btn btn-primary">Explorar imágenes de autos en Google</a> <!-- Cambio el texto del botón y la URL de redirección -->
+            <div class="alert" role="alert">
+                Me encantan los automoviles.
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
